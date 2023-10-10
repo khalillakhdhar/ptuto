@@ -30,4 +30,5 @@ private Livraison livraison;
 @OnDelete(action = OnDeleteAction.CASCADE)
 @JoinColumn(referencedColumnName = "titre")
 private Categorie categorie;
+private double prix;
 }
